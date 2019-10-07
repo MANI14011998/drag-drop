@@ -1,0 +1,1 @@
+We can select the particular sentence or the word and can drag on to the prototype cell in tableviewcontent . The sentence or the word can be highlighted into the cell . So, that it can be saved for later . Those particular sentence or the word also can be shared and can be looked upon it .
