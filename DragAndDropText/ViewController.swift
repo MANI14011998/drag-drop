@@ -11,8 +11,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var textView: UITextView!
     @IBOutlet weak var tableView: UITableView!
-    // jaha int h vaha string likhna h
-    var tableViewData = [int]()
+    var tableViewData = [String]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,13 +20,6 @@ class ViewController: UIViewController {
         tableView.dataSource = self
         
     }
-// ye didiRecieve ko remove karna h
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 
 extension ViewController:UITextDragDelegate, UITableViewDropDelegate {
